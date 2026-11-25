@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Planta Baixa Interativa</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Planta Baixa Interativa</h1>
+        <p>Conheça os ambientes da nossa empresa</p>
+    </header>
+
+    <main>
+
+        <section class="introducao">
+            <h2>Nossa Empresa</h2>
+            <p>
+                Explore nossa planta baixa! Clique em um dos cômodos
+                para conhecer os objetos e suas funcionalidades.
+            </p>
+        </section>
+
+        <!-- PLANTA BAIXA -->
+        <section class="planta-container">
+
+            <div class="planta">
+
+                <img src="planta baixa.png" alt="Planta baixa da empresa">
+
+                <!-- RECEPÇÃO -->
+                <a class="comodo recepcao" href="#recepcao"
+                    title="Recepção"></a>
+
+                <!-- SALA DE REUNIÕES -->
+                <a class="comodo reunioes" href="#reunioes"
+                    title="Sala de reuniões"></a>
+
+                <!-- ESCRITÓRIO -->
+                <a class="comodo escritorio" href="#escritorio"
+                    title="Escritório"></a>
+
+                <!-- COPA -->
+                <a class="comodo copa" href="#copa"
+                    title="Copa"></a>
+
+                <!-- BANHEIRO -->
+                <a class="comodo banheiro" href="#banheiro"
+                    title="Banheiro"></a>
+
+            </div>
+
+            <p class="dica">
+                Clique em um cômodo da planta para visualizar suas informações.
+            </p>
+
+        </section>
+
+
+        <!-- INFORMAÇÕES DOS AMBIENTES -->
+        <section class="informacoes">
+
+            <!-- RECEPÇÃO -->
+            <div class="info" id="recepcao">
+
+                <h2>Recepção</h2>
+
+                <p>
+                    A recepção é o ambiente responsável por receber
+                    visitantes, clientes e funcionários da empresa.
+                </p>
+
+                <h3>Móveis</h3>
+                <ul>
+                    <li>Sofá</li>
+                    <li>Balcão de atendimento</li>
+                    <li>Cadeira</li>
+                </ul>
+
+                <h3>Portas</h3>
+                <ul>
+                    <li>Porta de entrada</li>
+                </ul>
+
+                <a href="#" class="voltar">Voltar para a planta</a>
+
+            </div>
+
+
+            <!-- ESCRITÓRIO -->
+            <div class="info" id="escritorio">
+
+                <h2>Escritório</h2>
+
+                <p>
+                    O escritório é o espaço onde os funcionários
+                    realizam atividades administrativas e profissionais.
+                </p>
+
+                <h3>Móveis</h3>
+                <ul>
+                    <li>4 mesas de trabalho</li>
+                    <li>Cadeiras</li>
+                    <li>Armário</li>
+                </ul>
+
+                <h3>Eletrodomésticos e eletrônicos</h3>
+                <ul>
+                    <li>Computadores</li>
+                    <li>Impressora</li>
+                </ul>
+
+                <a href="#" class="voltar">Voltar para a planta</a>
+
+            </div>
+
+
+            <!-- SALA DE REUNIÕES -->
+            <div class="info" id="reunioes">
+
+                <h2>Sala de reuniões</h2>
+
+                <p>
+                    Ambiente utilizado para reuniões, apresentações,
+                    conversas e planejamento de projetos.
+                </p>
+
+                <h3>Móveis</h3>
+                <ul>
+                    <li>Mesa de reunião</li>
+                    <li>6 cadeiras</li>
+                </ul>
+
+                <h3>Eletrodomésticos e eletrônicos</h3>
+                <ul>
+                    <li>TV</li>
+                </ul>
+
+                <h3>Portas</h3>
+                <ul>
+                    <li>Porta de acesso</li>
+                </ul>
+
+                <a href="#" class="voltar">Voltar para a planta</a>
+
+            </div>
+
+
+            <!-- COPA -->
+            <div class="info" id="copa">
+
+                <h2>Copa</h2>
+
+                <p>
+                    A copa é o espaço destinado às refeições
+                    e aos momentos de descanso dos funcionários.
+                </p>
+
+                <h3>Móveis</h3>
+                <ul>
+                    <li>Mesa</li>
+                </ul>
+
+                <h3>Eletrodomésticos e eletrônicos</h3>
+                <ul>
+                    <li>Geladeira</li>
+                    <li>Micro-ondas</li>
+                </ul>
+
+                <h3>Hidráulica</h3>
+                <ul>
+                    <li>Pia</li>
+                </ul>
+
+                <h3>Portas</h3>
+                <ul>
+                    <li>Porta de acesso</li>
+                </ul>
+
+                <a href="#" class="voltar">Voltar para a planta</a>
+
+            </div>
+
+
+            <!-- BANHEIRO -->
+            <div class="info" id="banheiro">
+
+                <h2>Banheiro</h2>
+
+                <p>
+                    Ambiente destinado à higiene e às necessidades
+                    pessoais dos funcionários e visitantes.
+                </p>
+
+                <h3>Hidráulica</h3>
+                <ul>
+                    <li>Vaso sanitário</li>
+                    <li>Pia</li>
+                </ul>
+
+                <h3>Portas</h3>
+                <ul>
+                    <li>Porta de acesso</li>
+                </ul>
+
+                <a href="#" class="voltar">Voltar para a planta</a>
+
+            </div>
+
+        </section>
+
+
+        <!-- LEGENDA -->
+        <section class="legenda">
+
+            <h2>Legenda dos objetos</h2>
+
+            <div class="categorias">
+
+                <span>
+                    <i class="movel"></i>
+                    Móveis
+                </span>
+
+                <span>
+                    <i class="eletronico"></i>
+                    Eletrodomésticos e eletrônicos
+                </span>
+
+                <span>
+                    <i class="hidraulica"></i>
+                    Hidráulica
+                </span>
+
+                <span>
+                    <i class="porta"></i>
+                    Portas
+                </span>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <p>
+            © 2026 - Planta Baixa Interativa
+        </p>
+
+        <p>
+            Projeto desenvolvido em HTML e CSS.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
